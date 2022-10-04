@@ -4,7 +4,6 @@ app = Flask(__name__)#__name__ is the saved file name
 
 @app.route("/")#
 def websitedata():
-    print("got request")
     return render_template("index.html")
 
 @app.route("/about")#
