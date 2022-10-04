@@ -8,7 +8,6 @@ def websitedata():
 
 @app.route("/about")#
 def aboutdata():
-    print("got request")
     return render_template("about.html")
 if __name__=="__main__":
     app.run(debug=True, port=5000)
